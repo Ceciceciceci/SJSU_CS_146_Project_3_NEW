@@ -1,0 +1,80 @@
+C:\Users\Lambda\IdeaProjects\AVL_Project3\src>java DocumentCorrelator -a hamlet.
+txt the-new-atlantis.txt
+*****************************
+* DOCUMENT CORRELATION INTO *
+*****************************
+[TOP 10 WORDS]
+---------------------------------
+|     DOC A     |     DOC B     |
+---------------------------------
+| WORD  | FREQ  | WORD  | FREQ  |
+---------------------------------
+|    the|   1163|    the|    888|
+|    and|   1039|     of|    883|
+|     to|    806|    and|    871|
+|     of|    764|     to|    421|
+|      i|    631|     we|    343|
+|    you|    590|   that|    287|
+|      a|    588|      a|    267|
+|     my|    520|     in|    263|
+|     in|    460|    for|    224|
+|     it|    432|     as|    194|
+---------------------------------
+Similarity :   16.05 %
+
+C:\Users\Lambda\IdeaProjects\AVL_Project3\src>java DocumentCorrelator -b hamlet.
+txt the-new-atlantis.txt
+*****************************
+* DOCUMENT CORRELATION INTO *
+*****************************
+[TOP 10 WORDS]
+---------------------------------
+|     DOC A     |     DOC B     |
+---------------------------------
+| WORD  | FREQ  | WORD  | FREQ  |
+---------------------------------
+|    the|   1163|    the|    888|
+|    and|   1039|     of|    883|
+|     to|    806|    and|    871|
+|     of|    764|     to|    421|
+|      i|    631|     we|    343|
+|    you|    590|   that|    287|
+|      a|    588|      a|    267|
+|     my|    520|     in|    263|
+|     in|    460|    for|    224|
+|     it|    432|     as|    194|
+---------------------------------
+Similarity :   16.05 %
+
+C:\Users\Lambda\IdeaProjects\AVL_Project3\src>java DocumentCorrelator -h hamlet.
+txt the-new-atlantis.txt
+*****************************
+* DOCUMENT CORRELATION INTO *
+*****************************
+[TOP 10 WORDS]
+---------------------------------
+|     DOC A     |     DOC B     |
+---------------------------------
+| WORD  | FREQ  | WORD  | FREQ  |
+---------------------------------
+|    the|   1163|    the|    888|
+|    and|   1039|     of|    883|
+|     to|    806|    and|    871|
+|     of|    764|     to|    421|
+|      i|    631|     we|    343|
+|    you|    590|   that|    287|
+|      a|    588|      a|    267|
+|     my|    520|     in|    263|
+|     in|    460|    for|    224|
+|     it|    432|     as|    194|
+---------------------------------
+Similarity :   16.05 %
+
+C:\Users\Lambda\IdeaProjects\AVL_Project3\src>java DocumentCorrelator -h hamlet.
+txt
+[INSUFFICIENT NUMBER OF COMMAND LINE ARGUMENT
+Usage: [ -b | -a | -h ] <filename1> <filename2>
+Usage: java Correlator [ -b | -a | -h ] <filename1> <filename2>
+-b Use an Unbalanced BST in the backend
+-a Use an AVL Tree in the backend
+-h Use a Hashtable in the backend
